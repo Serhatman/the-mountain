@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+p, div, span {
+    font-family: 'Roboto', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
+}
+
+#home {
+    background-image: url('/images/bg_header.jpg');
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#about {
+    background-image: url(/images/bg_nuage.jpg);
+    background-position: 25%;
+    background-size:cover;
+    zoom: 1.3;
+    height: 550px;
+}
+
+
+#history {
+    background-image: url(/images/bg_appareil_photo.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 700px;
+}
+
+#contact {
+    background-image: url(/images/bg_newsletter.jpg);
+    background-position: 10% 0%;
+    backdrop-filter: inherit;
+    height: 550px;
+}
+
+footer {
+    background-color: rgb(54, 60, 70);
+} 
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+  backdrop-filter: blur(20px);
+  backdrop-filter: brightness(0.4);
+}
+
+.fa-solid {
+    height: 100px;
+    width: 100px;
+}
+
+#your-logo-sm {
+    height: 70px;
+    width: 200px;
+}
+
+.nav-item {
+    height: 80px;
+    border-left: 0;
+    border-right: 0.5 solid black;
+    border-bottom: 0.1rem solid rgb(91, 91, 91);
+}
+
+i {
+    font-size: 12px;
+}
+
+#bike {
+    height: 450px;
+    width: 450px;
+}
+
+i {
+    font-size: 4rem;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    width:150px;  
+    border: none;  
+}
+
+.btn-learn-more {
+    background-color: #86C3E0;
+    color:azure;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.content-banner {
+    background-color: rgba(67, 206, 222, 0.5);
+}
+
+
+button {
+    font-size: 72px;
+    margin-bottom: 100px;
+}
+
+.navbar-toggler-icon {
+    font-size: 72px;
+}
+
+.nav-top {
+    display: inline;
+}
+
+
+
+.photo{
+    width: 390px;
+    padding: 0 10px;
+}
+
+.photo img{
+    width: 100%;
+}
+
+.photo--width2{
+    width: 780px;
+}
+
+.cadre {
+    height: 150px;
+    width: 150px;
+}
+
+.lh7 {
+    line-height: 2;
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+
+.bg-gris-fonce {
+    background-color: rgb(51, 51, 49);
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+    body {
+        background-color: rgb(255, 155, 155);
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        background-color: rgb(141, 141, 252);
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: rgb(139, 255, 124);
+    }
+}
